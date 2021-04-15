@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "709481279095",
+    "project_id": "record-1ba0a",
+    "storage_bucket": "record-1ba0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709481279095:android:7562239c77c26c81f6e072",
+        "android_client_info": {
+          "package_name": "com.rishav.record"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709481279095-6k83n1dbdb1favo3n7u15tf18vifvmo9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rishav.record",
+            "certificate_hash": "910a686d4972ec0e31848388854ba926b1f43e7b"
+          }
+        },
+        {
+          "client_id": "709481279095-krt4i13tvlhlq083ifcden57bjk6sga7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHN9VfyIIPbf6lD0o2dOU8Ulu3YCGMp8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709481279095-krt4i13tvlhlq083ifcden57bjk6sga7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
