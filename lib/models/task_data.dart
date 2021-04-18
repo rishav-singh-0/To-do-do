@@ -6,9 +6,10 @@ import 'package:record/models/tasks.dart';
 
 class TaskData extends ChangeNotifier {
   List<Task> _tasks = [
-    Task(name: 'Make this todo list app', isDone: false),
-    Task(name: 'Work on fire drone', isDone: false),
-    Task(name: 'Fill internship form', isDone: true),
+    Task(name: 'This is the example of a Task', isDone: false),
+    Task(name: 'You can Delete any task by long pressing it', isDone: false),
+    Task(name: 'Once done tick the checkbox', isDone: true),
+    Task(name: 'Add new tasks from bottom plus button', isDone: false),
   ];
 
   void addTask(String newTaskTitle) {
