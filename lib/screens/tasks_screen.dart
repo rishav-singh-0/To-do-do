@@ -1,20 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
 import 'package:record/screens/add_task_screen.dart';
 import 'package:record/components/task_list.dart';
-import 'package:record/models/tasks.dart';
+import 'package:record/models/task_data.dart';
 
-class TaskScreen extends StatefulWidget {
-  @override
-  _TaskScreenState createState() => _TaskScreenState();
-}
-
-class _TaskScreenState extends State<TaskScreen> {
-  List<Task> tasks = [
-    Task(name: 'Make this todo list app', isDone: false),
-    Task(name: 'Work on fire drone', isDone: false),
-    Task(name: 'Fill internship form', isDone: true),
-  ];
-
+class TaskScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,9 +19,9 @@ class _TaskScreenState extends State<TaskScreen> {
               enableDrag: true,
               isScrollControlled: true,
               builder: (context) => AddTaskScreen((newTaskText) {
-                    setState(() {
-                      tasks.add(Task(name: newTaskText));
-                    });
+                    // setState(() {
+                    //   tasks.add(Task(name: newTaskText));
+                    // });
                     Navigator.pop(context);
                   }));
         },
@@ -62,7 +53,7 @@ class _TaskScreenState extends State<TaskScreen> {
                       fontWeight: FontWeight.w700),
                 ),
                 Text(
-                  '${tasks.length} Tasks',
+                  '${Provider.of<TaskData>(context).taskCount} Tasks',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 18,
@@ -80,7 +71,7 @@ class _TaskScreenState extends State<TaskScreen> {
                     topLeft: Radius.circular(20),
                     topRight: Radius.circular(20),
                   )),
-              child: TaskList(tasks),
+              child: TaskList(),
             ),
           )
         ],
