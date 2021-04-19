@@ -2,7 +2,7 @@ import 'dart:collection';
 
 import 'package:flutter/foundation.dart';
 // material package apready contains foundation package but using this to keep things minimal
-import 'package:record/models/tasks.dart';
+import 'package:tododo/models/tasks.dart';
 
 class TaskData extends ChangeNotifier {
   List<Task> _tasks = [

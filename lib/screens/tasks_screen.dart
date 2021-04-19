@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:record/screens/add_task_screen.dart';
-import 'package:record/components/task_list.dart';
-import 'package:record/models/task_data.dart';
+import 'package:tododo/screens/add_task_screen.dart';
+import 'package:tododo/components/task_list.dart';
+import 'package:tododo/models/task_data.dart';
 
 class TaskScreen extends StatelessWidget {
   @override
