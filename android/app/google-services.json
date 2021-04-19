@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "709481279095",
-    "project_id": "record-1ba0a",
-    "storage_bucket": "record-1ba0a.appspot.com"
+    "project_number": "768667792967",
+    "project_id": "tododo-3ff0d",
+    "storage_bucket": "tododo-3ff0d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:709481279095:android:7562239c77c26c81f6e072",
+        "mobilesdk_app_id": "1:768667792967:android:533c4d4791f80216abe362",
         "android_client_info": {
-          "package_name": "com.rishav.record"
+          "package_name": "com.rishav.tododo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "709481279095-6k83n1dbdb1favo3n7u15tf18vifvmo9.apps.googleusercontent.com",
+          "client_id": "768667792967-hpb03ustv99bla88c5rqfn8m28t25oet.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.rishav.record",
+            "package_name": "com.rishav.tododo",
             "certificate_hash": "910a686d4972ec0e31848388854ba926b1f43e7b"
           }
         },
         {
-          "client_id": "709481279095-krt4i13tvlhlq083ifcden57bjk6sga7.apps.googleusercontent.com",
+          "client_id": "768667792967-0oheaj9edkbdpumcqhfatq34lt92l7je.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAHN9VfyIIPbf6lD0o2dOU8Ulu3YCGMp8Y"
+          "current_key": "AIzaSyBu55kB_d5XeeyIBTsemdtimcCNfISImBg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "709481279095-krt4i13tvlhlq083ifcden57bjk6sga7.apps.googleusercontent.com",
+              "client_id": "768667792967-0oheaj9edkbdpumcqhfatq34lt92l7je.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

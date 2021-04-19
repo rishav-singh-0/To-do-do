@@ -1,6 +1,6 @@
 {
-    "name": "record",
-    "short_name": "record",
+    "name": "tododo",
+    "short_name": "tododo",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

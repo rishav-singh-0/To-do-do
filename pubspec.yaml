@@ -1,5 +1,5 @@
-name: record
-description: A new Flutter project.
+name: tododo
+description: A simple beautiful to-do list app.
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
