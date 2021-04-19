@@ -48,6 +48,8 @@ jobs:
           files: |
             build/app/outputs/apk/release/app-release.apk
             release_${{ steps.vars.outputs.sha_short }}.zip
+            tag_name: ${{ steps.vars.outputs.sha_short }}
+            release_name: Release ${{ steps.vars.outputs.sha_short }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
