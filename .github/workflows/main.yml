@@ -30,16 +30,17 @@ jobs:
     
     # checking dart and flutter packages
     - name: run-checks
-        run: |
+      run: |
         dart --version
         flutter --version
     
     # updating dependencies if needed
     - name: Updating Dependencies and Build App
-    run: flutter pub get
-    #- run: flutter test
-    - run: flutter build apk
-
+      run: |
+        flutter pub get
+        flutter build apk
+      # flutter test
+    
     # - name: Upload apk
     #   uses: actions/upload-artifact@v2
     #   with: 
