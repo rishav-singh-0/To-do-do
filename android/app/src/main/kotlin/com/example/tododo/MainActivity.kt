@@ -1,4 +1,4 @@
-package com.example.record
+package com.rishav.tododo
 
 import io.flutter.embedding.android.FlutterActivity
 

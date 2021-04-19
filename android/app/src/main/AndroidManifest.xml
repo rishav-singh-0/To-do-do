@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.record">
+    package="com.rishav.tododo">
    <application
-        android:label="record"
+        android:label="tododo"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
